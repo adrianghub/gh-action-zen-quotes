@@ -32,7 +32,5 @@ jobs:
       - name: Add Motivational Quote
         uses: your-username/github-action-add-quote@v1
         with:
-          issue_number: ${{ github.event.issue.number }}
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
