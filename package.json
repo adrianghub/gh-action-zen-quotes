@@ -1,0 +1,22 @@
+{
+  "name": "github-action-zen-quotes",
+  "version": "1.0.0",
+  "description": "A GitHub Action to post motivational quotes from ZenQuotes API",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "github-action",
+    "motivational-quote",
+    "zenquotes",
+    "deployment"
+  ],
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "author": "Adrian Zinko",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}
