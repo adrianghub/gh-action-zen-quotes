@@ -1,6 +1,6 @@
-# Add Motivational Quote from ZenQuotes API
+# Motivational Quote from ZenQuotes API
 
-This GitHub Action posts a motivational quote as a comment on a specified issue or pull request after each deployment. The quotes are sourced from [ZenQuotes API](https://zenquotes.io/).
+This GitHub Action posts a motivational quote as a comment on a specified issue or pull request. The quotes are sourced from [ZenQuotes API](https://zenquotes.io/).
 
 ## Usage
 
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Replace this with your actual deployment steps
+        # Replace this with your actual deployment steps
 
       - name: Add Motivational Quote
         uses: adrianghub/gh-action-zen-quotes@v1
