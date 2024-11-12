@@ -25,14 +25,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Replace this with your actual deployment steps
 
       - name: Add Motivational Quote
-        uses: your-username/github-action-add-quote@v1
+        uses: adrianghub/gh-action-zen-quotes@v1
         with:
-          issue_number: ${{ github.event.issue.number }}
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
